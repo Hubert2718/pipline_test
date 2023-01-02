@@ -3,7 +3,9 @@ pipeline{
 
   stages {
     stage('Hello') {
-      sh 'hello ziom'
+      steps {
+            sh 'hello ziom'
+      }
     }
   }
 }
