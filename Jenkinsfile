@@ -1,5 +1,1 @@
-stages {
-  stage("Hello") {
-      sh "echo Joł Ziom"
-  }
-}
+echo "Hello World"
