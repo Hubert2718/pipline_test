@@ -5,6 +5,7 @@ pipeline{
     stage('Hello') {
       steps {
             echo "Testing"
+            sfdx help
       }
     }
   }
