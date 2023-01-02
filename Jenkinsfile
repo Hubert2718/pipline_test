@@ -1,4 +1,4 @@
-node('jenkins_slave_dx') {
+stages {
   stage("Hello") {
       sh "echo Joł Ziom"
   }
