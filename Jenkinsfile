@@ -1,13 +1,7 @@
-pipeline{
-  agent any
-
-  stages {
-    stage('Hello') {
-      steps {
-            echo "Testing"
-            sfdx help
-      }
-    }
+node{
+  stage('Hello') {
+    sh "pwd"
+    sh "sfdx help"
   }
 }
 
