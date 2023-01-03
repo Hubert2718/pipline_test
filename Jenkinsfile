@@ -3,5 +3,8 @@ node{
   stage('Hello') {
     sh "${toolbelt}/sfdx help"
   }
+  stage("Analyze") {
+    echo "Hello"
+  }
 }
 
