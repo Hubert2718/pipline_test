@@ -1,7 +1,7 @@
 node{
+  def toobelt = tool 'toolbelt'
   stage('Hello') {
-    sh "pwd"
-    sh "sfdx help"
+    sh "${toolbelt}/sfdx help"
   }
 }
 
