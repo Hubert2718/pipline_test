@@ -5,7 +5,6 @@ node{
   }
   stage("Analyze") {
     echo "Hello"
-    echo "Dzialaj jenkins dizalaj"
   }
 }
 
