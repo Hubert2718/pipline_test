@@ -4,7 +4,7 @@ node{
     sh "${toolbelt}/sfdx help"
   }
   stage("Analyze") {
-    echo "Hello kurwa mac"
+    echo "Hello kurwa mac kkk"
 
   }
 }
