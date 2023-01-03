@@ -4,7 +4,7 @@ node{
     sh "${toolbelt}/sfdx help"
   }
   stage("Analyze") {
-    echo "Hello mordo"
+    echo "Hello mordo na dzialaj"
   }
 }
 
